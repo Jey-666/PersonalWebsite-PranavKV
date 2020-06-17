@@ -8,52 +8,73 @@ html{
     background-size:cover; 
     background-position:center center;
 } */
-body{
+/* body{
     font-family:  SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+} */
+
+.pd-r{
+    padding-right: 10rem;
 }
+
 .full-scrn{
     height: 100vh;
     width: 100vw;
+    text-align: center;
 }
-.home-img{
+.fix{
+    position: fixed; 
+    z-index: 1;
+}
+.home-bg-img{
     position: relative;
-    background-color: #000;
+    background: linear-gradient(090deg, hsl(201.2, 13.2%, 25.3%) 0%, hsl(201.2, 13%, 56%) 100%);
 }
-.home-img::before{
+.home-bg-img::before{
     content: '';
     display: block;
     position: absolute;
-    left: 0;
-    top: 0;
     width: 100%;
     height: 100%;
     z-index: 0;
-    opacity: 0.5;
-    background: url("/a.jpg") no-repeat center center;
+    opacity: 0.3;
+    background: url("/images/home-bg.JPG") no-repeat center center;
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
 }
-.gallery-img{
-    background-image: url("/gallery.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:fixed;
-    box-shadow: -2px -1px 20px 0px black;
+.text-sz{
+    font-size: 4rem;
+    font-weight: 600;
+    /* color: hsl(36, 12%, 8%); */
+    color: #ffffff;
+    /* text-shadow: 5px 5px 7px #191818; */
 }
+.mgn-tp{
+    margin-top: 14rem;
+}
+
 .qualification-shdw{
     box-shadow: -2px -1px 20px 7px #383535;
 }
 .qualification-bg{
     background-color: #f5f5f5;
 }
+
+.gallery-img{
+    background-image: url("/images/gallery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    /* box-shadow: -2px -1px 20px 0px black; */
+}
 .gallery-txt{
     color: rgb(169, 132, 130);
 }
 
 .txt-sz{
-    font-size: 1.2rem;
-    text-shadow: 1px 1px 1px black;
+    font-size: 1.1rem;
+    font-weight: 400;
+    /* text-shadow: 1px 1px 1px black; */
 }
 .nav-btn{
     background: rgb(25,37,65);
@@ -76,10 +97,7 @@ body{
 .shdw{
     box-shadow: 8px 7px 9px 0px grey;
 }
-.h-i-sz{
-    font-size: 3rem;
-    font-weight: bolder;
-    /* color: hsl(36, 12%, 8%); */
-    color: white;
-    text-shadow: 2px 2px #525a66;
+.bg-clr{
+    background-color: rgba(177, 145, 146, 1);
+    box-shadow: inset 0px 3px 6px 0px rgba(88, 44, 54, 1);
 }
