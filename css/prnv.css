@@ -65,7 +65,9 @@ html{
 .mgn-tp{
     margin-top: 14rem;
   }
-
+.shdw-box {
+    box-shadow: 1px 1px 6px 0px #998f8f;
+}
 .qualification-shdw{
     box-shadow: -2px -1px 20px 7px #383535;
   }
