@@ -20,12 +20,12 @@
   src: url('/Font/Quicksand-Bold.ttf');
 }
 @font-face{
-  font-family: Quicksand-Medium;
+  font-family: 'Quicksand-Medium';
   src: url('/Font/Quicksand-Medium.ttf');
 }
 html{
   scroll-behavior: smooth;
-  font-family: Quicksand-Medium;
+  font-family: 'Quicksand-Medium';
 }
 .pd-r{
     padding-right: 10rem;
