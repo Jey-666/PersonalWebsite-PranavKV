@@ -1,46 +1,35 @@
 
-@font-face {
-    font-family: Roboto-Regular;
-    src: url("/Font/Roboto-Regular.ttf");
-  }
-@font-face {
-    font-family: Roboto-Medium;
-    src: url("/Font/Roboto-Medium.ttf");
-  }
-@font-face{
-  font-family: Quicksand-Light;
-  src: url('/Font/Quicksand-Light.ttf');
-}
-@font-face{
-  font-family: Quicksand-SemiBold;
-  src: url('/Font/Quicksand-SemiBold.ttf');
-}
-@font-face{
-  font-family: Quicksand-Bold;
-  src: url('/Font/Quicksand-Bold.ttf');
-}
-@font-face{
-  font-family: 'Quicksand-Medium';
-  src: url('/Font/Quicksand-Medium.ttf');
-}
-html{
+
+*{
   scroll-behavior: smooth;
-  font-family: 'Quicksand-Medium';
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
 .pd-r{
-    padding-right: 10rem;
+    padding-right: 8rem;
   }
 
 .full-scrn{
     height: 100vh;
     width: 100vw;
-    text-align: center;
   }
 .fix{
     position: fixed; 
     z-index: 1;
   }
-.home-bg-img{
+.pk{
+  height: 100vh;
+  width: 100vw;
+}
+/* .home-bg-img{
+  background-image: url('/images/home-bg.jpg/') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+} */
+/* .home-bg-img{
     position: relative;
     background: linear-gradient(090deg, hsl(201.2, 13.2%, 25.3%) 0%, hsl(201.2, 13%, 56%) 100%);
   }
@@ -56,20 +45,17 @@ html{
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
-  }
+  } */
 .home-text-sz{
     font-size: 4.2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #ffffff;
-    font-family: Quicksand-SemiBold;
+    font-family: 'Quicksand', sans-serif;
   }
 .home-sub-sz{
     font-size: 2rem;
     font-weight: normal;
 }
-.mgn-tp{
-    margin-top: 16rem;
-  }
 .anim{
   font-weight: 500;
   font-size: .5em;
@@ -80,7 +66,6 @@ html{
 .bg{
   transition: 0.8s ease;
   background-color: none;
-  
 }
 .bg.scrolled{
     color: black;
@@ -98,16 +83,15 @@ html{
     border-bottom: 0.3rem solid #007aff;
 } 
 .nav-txt-sz{
-    font-size: 1.2rem;font-family: Quicksand-Medium;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
     color: white;
     letter-spacing: 0.1rem;
 }
 .nav-txt-sz.textScrolled{
     color: #0078ff;
   }
-.nav-txt-sz:hover{
-    font-size: 1.3rem;
-}
 .nav-txt-sz:start{
     color: thistle;
 }
@@ -150,8 +134,11 @@ html{
 .pad-r{
   padding-right: 0.6rem;
   word-spacing: 0.3rem;
-  font-size: 1.4rem;
-  font-family: Quicksand-Medium;
+  font-size: 1.3rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.list-padding {
+  padding-right: 10rem;
 }
 
 .top-icon{
@@ -168,8 +155,8 @@ html{
 
 .pranav{
   color: white;
-  font-weight: 900;
-  font-family: Quicksand-Bold;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
   position: relative;
   font-size: 2.5rem;
   letter-spacing: -0.2rem;
@@ -178,8 +165,14 @@ html{
   color: #0078ff;
 }
 
-
-.work-bg{
+/* .work-bg{
+  background-image: url("/images/work-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a0808;
+} */
+/* .work-bg{
   position: relative;
   background: #489bf7
 }
@@ -195,11 +188,26 @@ html{
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
-}
+} */
 
 .work-card{
   font-size: 7rem;
   color: #cde1f9;
-  position: relative;
-  z-index: 0;
+}
+
+.work-text{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.work-text-num{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+}
+.clor{
+ color: #ffffff;
+ text-shadow: 6px 5px 8px black;
+}
+.clor:hover{
+  color: #66CDAA;
 }

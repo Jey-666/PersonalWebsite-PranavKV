@@ -8,6 +8,44 @@
     <title>Pranav K V</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/prnv.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
+
+<style>
+.home-bg-img{
+    position: relative;
+    background: linear-gradient(090deg, hsl(201.2, 13.2%, 25.3%) 0%, hsl(201.2, 13%, 56%) 100%);
+  }
+.home-bg-img::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+    background: url("images/home-bg.JPG") no-repeat center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+  }
+.work-bg{
+  position: relative;
+  background: #0042d1;
+}
+.work-bg::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.3;
+  background: url("images/work-bg.jpg") no-repeat center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+</style>
 
 </head>
 
@@ -43,18 +81,33 @@
     </div>
 </header>
 
-<section id="home" class="home-bg-img full-scrn">
+<section id="home" class="full-scrn home-bg-img">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 home-text-sz mgn-tp">
-                <p class="home-text-sz">I am Pranav K V</p>
-                <h1 class="anim">Web-Developer</h1>
+            <div class="row col-md-12 home-text-sz mgn-tp pk">
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+
+                <div class="col-md-12 col-12" style="text-align: center;">
+                    <p class="home-text-sz">I am Pranav K V</p>
+                </div>
+
+                <div class="col-md-12 col-12" style="text-align: center;" >
+                    <h1 class="anim">Web-Developer</h1>
+                </div>
+
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
+                <div class="col-md-12 col-12"></div>
             </div>
-        </div>
     </div>
 </section>
-
-
 
 <section id="about" class="qualification-bg qualification-shdw">
     <div class="container"><div class="row"><div class="col-md-12"></div></div></div>
@@ -105,19 +158,19 @@
                 <br>
             </div>
             <div class="col-md-6 pb-5 pt-md-0 pt-5 pad-r pr-md-5 pr-5">
-                <div class="col-md-12 col-12"><h2 class="pb-2" style="font-family: Quicksand-Bold;">About me</h2></div>
+                <div class="col-md-12 col-12"><h2 class="pb-2" style="font-family: 'Quicksand', sans-serif; font-weight: bold;">About me</h2></div>
                 <div class="col-md-2 col-3 bdr-b ml-3"></div>
-                <p style="font-weight: 300;" class="text-muted pad-r pt-4">Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                <p style="font-weight: 400;" class="text-muted pad-r pt-4">Contrary to popular belief, Lorem Ipsum is not simply random text. 
                     It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, 
                     a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, 
                     from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
                 </p>
-                <p style="font-weight: 300;" class="text-muted pad-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut blandit mi. Mauris et ultrices sem, eu aliquet leo. Phasellus dictum fringilla ultrices. Sed sed ante nibh.
+                <p style="font-weight: 400;" class="text-muted pad-r">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut blandit mi. Mauris et ultrices sem, eu aliquet leo. Phasellus dictum fringilla ultrices. Sed sed ante nibh.
                      Aliquam fermentum tincidunt justo sit amet egestas. 
                      Proin cursus lectus ut eros imperdiet aliquam. Vestibulum tincidunt vehicula maximus.
                 </p>
-                <b style="font-family: Quicksand-SemiBold; font-weight: 600; color: rgb(71, 66, 66); font-size: 1.3rem;">TRAINING AND CERTIFICATION</b>
-                <ul class="list-padding" style="color: rgb(133, 124, 124); font-size: 1.2rem;">
+                <b style="font-family: 'Quicksand', sans-serif; font-weight: 700; color: rgb(71, 66, 66); font-size: 1.3rem;">TRAINING AND CERTIFICATION</b>
+                <ul class="list-padding" style="font-weight: 500;color: rgb(133, 124, 124); font-size: 1.2rem;">
                     <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nis.</li>
                     <li>Praesent dapibus, neque id cursus faucibus.</li>
                     <li>Phasellus ultrices nulla quis nibh. Quisque a lectus.</li>
@@ -131,19 +184,13 @@
     
     <div class="container fixed-bottom col-12">
         <div class="row">
-            <div class="col-md-1 col-1"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2"></div>
-            <div class="col-md-1 col-2">
-                <a href="#home" ><i id="top" class="fas fa-chevron-circle-up top-icon pl-md-5 pb-md-4 pb-3"></i></a>
+            <div class="col-md-2 col-2"></div>
+            <div class="col-md-2 col-2"></div>
+            <div class="col-md-2 col-2"></div>
+            <div class="col-md-2 col-2"></div>
+            <div class="col-md-2 col-1"></div>
+            <div class="col-md-2 col-2" style="text-align: right; align-items: center;">
+                <a href="#home" ><i id="top" class="fas fa-chevron-circle-up top-icon pb-md-3 pb-3"></i></a>
             </div>
         </div>
     </div>
@@ -154,32 +201,24 @@
         <div class="col-md-12" style="padding-bottom: 5rem;"></div>
         <div class="row text-center">
             <div class="col-md-3 col-12">
-                <i class="work-card far fa-check-circle pt-md-0 pt-5">
-                    <br>
-                    <h2 class="text-white" style="font-family: Quicksand-Medium; font-size: 3rem;">0</h2>
-                    <h4 class="text-white" style="font-family: Quicksand-Bold;">WORKS COMPLETED</h4>
-                </i>
+                <i class="work-card far fa-check-circle pt-md-0 pt-5 clor"></i>
+                <h2 class="text-white work-text-num ">0</h2>
+                <h4 class="text-white work-text">WORKS COMPLETED</h4>
             </div>
             <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card far fa-calendar">
-                    <br>
-                    <h2 class="text-white pt-md-2" style="font-family: Quicksand-Medium; font-size: 3rem;">0</h2>
-                    <h4 class="text-white" style="font-family: Quicksand-Bold;">YEARS OF EXPERIENCE</h4>
-                </i>
+                <i class="work-card far fa-calendar clor"></i>
+                <h2 class="text-white pt-md-2 work-text-num">0</h2>
+                <h4 class="text-white work-text">YEARS OF EXPERIENCE</h4>
             </div>
             <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card fas fa-users">
-                    <br>
-                    <h2 class="text-white" style="font-family: Quicksand-Medium; font-size: 3rem;">0</h2>
-                    <h4 class="text-white" style="font-family: Quicksand-Bold;">TOTAL CLIENTS</h4>
-                </i>
+                <i class="work-card fas fa-users clor"></i>
+                <h2 class="text-white work-text-num pt-2">0</h2>
+                <h4 class="text-white work-text">TOTAL CLIENTS</h4>
             </div>
             <div class="col-md-3 col-12 pt-md-0 pt-5">
-                <i class="work-card fas fa-award">
-                    <br>
-                    <h2 class="text-white" style="font-family: Quicksand-Medium; font-size: 3rem;">0</h2>
-                    <h4 class="text-white" style="font-family: Quicksand-Bold;">AWARD WON</h4>
-                </i>
+                <i class="work-card fas fa-award clor"></i>
+                <h2 class="text-white work-text-num pt-2">0</h2>
+                <h4 class="text-white work-text">AWARD WON</h4>
             </div>
         </div>
         <div class="col-md-12" style="padding-top: 5rem;"></div>
@@ -190,12 +229,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-12 m-2">
-                <p>
-                    <p class="text-white text-center">
+                <p class="text-white text-center">
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="color: blue;"></i></a>      
                     <a href="https://www.instagram.com/"><i class="fab fa-instagram" style="color: #ba33b1;"></i></a>
                     <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a><br>
-                    <strong>©</strong> Copyright <Strong>Naveen Murali</Strong>. All Rights Reserved<br> Designed by <strong>Naveen Murali</strong></p>
+                    <strong>©</strong> Copyright <strong>Naveen Murali</strong>. All Rights Reserved<br> Designed by <strong>Naveen Murali</strong>
                 </p>
             </div>
         </div>
